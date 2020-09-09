@@ -1,0 +1,79 @@
+{
+  "main": {
+    "id": "d8bc2b74b5fda436",
+    "type": "split",
+    "children": [
+      {
+        "id": "d3b614ff7de18565",
+        "type": "leaf",
+        "active": true,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "C Programming language.md",
+            "mode": "preview"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "4a8b46ce27b1cf2e",
+    "type": "split",
+    "children": [
+      {
+        "id": "e7d2f9c6f7d3ed00",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ca19a64348a0e75f",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "bd69f724eb02982d",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "32c8d081620e624a",
+    "type": "split",
+    "children": [
+      {
+        "id": "d6f0f4fd71692d8d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "985d80326279518d",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "C Programming language.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "lastOpenFiles": [
+    "Untitled.md"
+  ]
+}
