@@ -153,4 +153,12 @@
 					- both are constant
 				- rule of thumb
 					- const applies to whatever is on the left unless there is nothing on the left in which case it applies to the right cause why not -_-
-					- 
+- function paramaters with const
+	- void compute(struct data* p)
+	- but we dont want the data changed that p points to
+	- use
+		- void compute (const struct data* p)
+	- c++ can use const to control access to member variables
+	- getters should always use const,
+		- void Complex::getReal() const
+- references types

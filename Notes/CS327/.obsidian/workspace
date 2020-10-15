@@ -15,7 +15,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Objects.md",
+                "file": "References.md",
                 "mode": "source"
               }
             }
@@ -27,7 +27,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Objects.md",
+                "file": "References.md",
                 "mode": "preview"
               }
             }
@@ -59,16 +59,15 @@
             "type": "leaf",
             "state": {
               "type": "search",
-              "state": {
-                "query": ""
-              }
+              "state": {}
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "32c8d081620e624a",
@@ -84,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Objects.md"
+                "file": "References.md"
               }
             }
           }
@@ -96,15 +95,10 @@
     "collapsed": true
   },
   "lastOpenFiles": [
-    "Objects.md",
-    "C++.md",
     "References.md",
-    "Untitled.md",
+    "C++ Objects.md",
+    "C++.md",
     "Example C++.md",
-    "C.md",
-    "images/Pasted image 20200922130609.png",
-    "odds and ends in C.md",
-    "C Programming language.md",
-    "Doubly Linked List in C.md"
+    "Objects.md"
   ]
 }
