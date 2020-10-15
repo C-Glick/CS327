@@ -13,6 +13,10 @@
   "spellcheck": true,
   "spellcheckDictionary": [
     "writeVar",
-    "bitwise"
-  ]
+    "bitwise",
+    "comparator",
+    "structs",
+    "struct"
+  ],
+  "fileSortOrder": "byModifiedTime"
 }

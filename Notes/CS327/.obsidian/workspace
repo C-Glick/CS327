@@ -4,16 +4,36 @@
     "type": "split",
     "children": [
       {
-        "id": "d3b614ff7de18565",
-        "type": "leaf",
-        "active": true,
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "C Programming language.md",
-            "mode": "preview"
+        "id": "1ae21e8bac2bfde3",
+        "type": "split",
+        "children": [
+          {
+            "id": "44bc33159118c495",
+            "type": "leaf",
+            "dimension": 58.65191146881288,
+            "active": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Objects.md",
+                "mode": "source"
+              }
+            }
+          },
+          {
+            "id": "1799542e699b0812",
+            "type": "leaf",
+            "dimension": 41.34808853118712,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Objects.md",
+                "mode": "preview"
+              }
+            }
           }
-        }
+        ],
+        "direction": "horizontal"
       }
     ],
     "direction": "vertical"
@@ -39,7 +59,9 @@
             "type": "leaf",
             "state": {
               "type": "search",
-              "state": {}
+              "state": {
+                "query": ""
+              }
             }
           }
         ]
@@ -62,7 +84,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "C Programming language.md"
+                "file": "Objects.md"
               }
             }
           }
@@ -74,6 +96,15 @@
     "collapsed": true
   },
   "lastOpenFiles": [
-    "Untitled.md"
+    "Objects.md",
+    "C++.md",
+    "References.md",
+    "Untitled.md",
+    "Example C++.md",
+    "C.md",
+    "images/Pasted image 20200922130609.png",
+    "odds and ends in C.md",
+    "C Programming language.md",
+    "Doubly Linked List in C.md"
   ]
 }

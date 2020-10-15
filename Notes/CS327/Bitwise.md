@@ -1,0 +1,34 @@
+## bitwise operators
+ - #bitwise
+	- operate on the binary representation of the int
+	- ~ ones complement
+	- & bitwise AND
+	- | bitwise OR
+	- ^ bitwise XOR
+	- << left shift
+	- \>> right shift
+	- ex:
+		- 8 bit unsigned char
+		- char x = 0x96 = 1010 0110
+		- char y = 0x28 = 0010 1000
+		- ~x = 0101 1001
+		- x & y = 0010 0000
+		- x | y = 1010 1110 
+	- useful for
+		- high data compression, set and test individual bits
+		- embedded systems
+- other operators
+	- +=
+	- -=
+	- *=
+	- ^=
+	- /=
+	- %=
+	- &=
+	- ++ and --
+		- post increment and pre increment can be tricky
+- conditional operator
+	- a?b:c
+		- evaluates based on the condition
+		- test condition? true value: false value
+	- EX: max = (x>y)?x:y
