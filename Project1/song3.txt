@@ -1,0 +1,15 @@
+SAMPLERATE
+16000
+
+WAVE
+wave
+saw
+0 0
+
+SOUND
+sound1
+wave 1.0
+
+
+SONG
+sound1 50 0 5

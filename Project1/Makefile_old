@@ -1,0 +1,39 @@
+CC = gcc
+ARGS = -g
+
+all: parta dtmf
+
+#part a --------------------------------------------------------------------------
+
+parta: gensine gendial
+
+gensine: main.o gensnd.o 
+	$(CC) main.o gensnd.o $(ARGS) -lm -o gensine
+
+main.o: main.c
+	$(CC) $(ARGS) -c main.c
+
+gendial: main2.o gensnd.o
+	$(CC) main2.o gensnd.o $(ARGS) -lm -o gendial
+
+main2.o: main2.c
+	$(CC) $(ARGS) -c main2.c
+	
+#part b ---------------------------------------------------------------------------
+
+partb: dtmf
+
+dtmf: main1b.o gensnd.o
+	$(CC) main1b.o gensnd.o $(ARGS) -lm -o dtmf
+
+main1b.o: main1b.c
+	$(CC) $(ARGS) -c main1b.c
+
+#common ---------------------------------------------------------------------------
+
+gensnd.o: gensnd.c gensnd.h
+	$(CC) $(ARGS) -c gensnd.c
+
+#forcefully (and silently) remove all generated files
+clean:
+	rm -f *.o gensine gendial dtmf
