@@ -53,4 +53,43 @@ i+=3;
 	}
 	
 	String test = "asdfasdw";
-	text[0] = 'f';
+	test[0] = 'f'; //test = "fsdfasdw"
+	```
+	- returning a reference is much more efficient than returning an entire object on the stack
+		```c++
+		Pair& minmax(double data[], int n){
+			double minval = data[0];
+			double maxval = data[0];
+			
+			for(int i=0; i<n; i++){
+				if (data[i] < minval) minval = data[i];
+				if (data[i] > maxval) maxval = data[i];
+			}
+			Pair p(minval, maxval);	//class Pair stores a pair of doubles
+			return p;	//doesnt work becase we a returning a refernce (see function header)
+		}
+		```
+		- types of common memory errors
+			- Life time errors
+				- once a method or function ends, the variables stored on the stack associated with that method/function call are no longer valid.
+				- very typical error 
+					```c++
+					char* readAline(){
+						char buffer[1000];
+						gets(buffer);
+						return buffer;
+					}	//when readAline ends buffer is not valid anymore
+					//usually correct but not guaranteed
+					```
+			- size errors	
+				- size of objects have to be known and compile time
+					- array sizes and stuff
+				- can accidentally overwrite some data when going out of bounds
+- pointers to objects in c++
+	- objects are allocated on the heap
+	- just as you would expect
+	```c++
+	Box* b;
+	b = new Box(7);	//allocated on the heap
+	Box b2 = *b; //copy constructor and put it on the stack
+	print box(b2);

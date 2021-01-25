@@ -4,36 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "1ae21e8bac2bfde3",
-        "type": "split",
-        "children": [
-          {
-            "id": "44bc33159118c495",
-            "type": "leaf",
-            "dimension": 58.65191146881288,
-            "active": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "References.md",
-                "mode": "source"
-              }
-            }
-          },
-          {
-            "id": "1799542e699b0812",
-            "type": "leaf",
-            "dimension": 41.34808853118712,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "References.md",
-                "mode": "preview"
-              }
-            }
+        "id": "3bbad2e0fbc05811",
+        "type": "leaf",
+        "active": true,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "C++ Objects.md",
+            "mode": "preview"
           }
-        ],
-        "direction": "horizontal"
+        }
       }
     ],
     "direction": "vertical"
@@ -59,15 +39,21 @@
             "type": "leaf",
             "state": {
               "type": "search",
-              "state": {}
+              "state": {
+                "query": "operator",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "32c8d081620e624a",
@@ -83,7 +69,12 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "References.md"
+                "file": "C++ Objects.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
               }
             }
           }
@@ -95,10 +86,15 @@
     "collapsed": true
   },
   "lastOpenFiles": [
-    "References.md",
     "C++ Objects.md",
+    "Overloading operators.md",
     "C++.md",
-    "Example C++.md",
-    "Objects.md"
+    "References.md",
+    "other examples.md",
+    "Memory managment in C++.md",
+    "exam.md",
+    "Pasted image 20201112131004.png",
+    "Templates.md",
+    "odds and ends in C.md"
   ]
 }
