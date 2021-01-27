@@ -1,0 +1,45 @@
+- Main
+    - TrimString(string in)
+        - The trim string function works on a string objects and will remove white space before and after the string. It returns a new string object that has been trimmed.
+    - main
+        - the main function for this program. Parses the input file, storing candy objects into a vector. Then prints the details of all the candy, prints the total value of candy in the store, and the number of different types of candy in the store.
+- Candy class
+    - The candy class holds data about the candy objects, including name, candy type, price type, price, quantity, and calories
+    - The candy class cannot be initialized directly and must be initialized through a sub-class.
+    - Copy constructor
+        - The candy class provides a copy constructor to create a deep copy of a candy object
+    - Deconstructor
+        - The candy class contains a deconstructor, because all member variables are stored on the stack, it does not need to clean up anything and is there for future implementations
+    - = operator 
+        - The candy class overloads the = operator to assign one candy object to another
+    - < operator
+        - the candy class overloads the < operator to facilitate sorting a vector of candy objects
+    - printDetails()
+        - The prints the details of this candy object to standard out
+        - prints name, amount in store, and total price on hand
+    - getName()
+    - getCandyType()
+    - getPriceType()
+    - getPrice()
+    - getAmount()
+    - getCalories()
+    - setName(string)
+    - setCandyType(string)
+    - setPriceType(string)
+    - setPrice(float)
+    - setAmount(int)
+    - setCalories(float)
+- HardCandy and JellyCandy class
+    - The HardCandy and JellyCandy class extends the Candy class and adds additional information for color
+    - constructor
+        - requires: string name, string price type, float price, int amount, float calories, int color (0-9)
+    - getColor()
+    - setColor()
+    - These classes also have a copy constructor similar to the Candy class,
+    - a deconstructor,
+    - and they overload the = operator
+- ChocolateCandy and CaramelCandy class
+    - The ChocolateCandy and the CaramelCandy class extend the Candy class
+    - constructor
+        - requires: string name, string price type, float price, int amount, float calories
+    - These classes also contain copy constructors, destructors, and they override the = operator

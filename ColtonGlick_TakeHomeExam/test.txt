@@ -1,0 +1,80 @@
+>this text is ignored<
+jolly ranchers
+-------------------
+START
+
+
+
+Jolly Rancher
+hard
+piece
+0.50
+1
+2123
+100
+
+Jolly Rancher
+hard
+piece
+0.50
+2
+1032
+100
+
+Jolly Rancher
+hard
+piece
+0.50
+3
+976
+100
+
+END
+
+
+should do nothing
+blah 
+blah 
+blah
+
+START
+M&Ms
+chocolate
+pound
+2.59
+100
+250
+END
+
+gummy Bears
+----------------
+
+START
+Gummy Bears
+jelly
+pound
+5.34
+4
+60
+580
+
+Gummy Bears
+jelly
+pound
+5.34
+5
+60
+580
+
+END
+
+START
+
+Butterworths
+caramel
+pound
+5.01
+142
+200
+
+END

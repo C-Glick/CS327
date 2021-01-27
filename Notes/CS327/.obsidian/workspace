@@ -10,12 +10,12 @@
           {
             "id": "44bc33159118c495",
             "type": "leaf",
-            "dimension": 58.65191146881288,
+            "dimension": 19.342359767891683,
             "active": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "References.md",
+                "file": "Doubly Linked List in C.md",
                 "mode": "source"
               }
             }
@@ -23,11 +23,11 @@
           {
             "id": "1799542e699b0812",
             "type": "leaf",
-            "dimension": 41.34808853118712,
+            "dimension": 80.65764023210832,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "References.md",
+                "file": "Doubly Linked List in C.md",
                 "mode": "preview"
               }
             }
@@ -59,15 +59,16 @@
             "type": "leaf",
             "state": {
               "type": "search",
-              "state": {}
+              "state": {
+                "query": ""
+              }
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "32c8d081620e624a",
@@ -83,7 +84,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "References.md"
+                "file": "Doubly Linked List in C.md"
               }
             }
           }
@@ -95,6 +96,7 @@
     "collapsed": true
   },
   "lastOpenFiles": [
+    "Doubly Linked List in C.md",
     "References.md",
     "C++ Objects.md",
     "C++.md",
