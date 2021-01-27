@@ -1,3 +1,9 @@
+[[Example C++]]
+[[C++ Objects]]
+[[References]]
+[[other examples]]
+[[Overloading operators]]
+[[Memory managment in C++]]
 - history / philosophy
 	- invented by Bjorne straustrup in early 1980's
 		- implementing an event driven simulation and wanted an OO language

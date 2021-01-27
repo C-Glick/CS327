@@ -1,0 +1,167 @@
+SAMPLERATE
+16000
+
+WAVE
+wave
+sine
+0 0
+
+SOUND
+sound1
+wave 1.0
+
+SOUND 
+sound3
+wave 0.333
+
+SOUND
+sound4 
+wave 0.25
+
+SOUND
+sound5
+wave 0.2
+
+SONG
+sound1 52 0 0.15
+sound1 54 0.15 0.15
+sound1 57 0.3 0.15
+sound1 54 0.45 0.15
+
+sound5 61 0.6 0.4
+sound5 57 0.6 0.4
+sound5 54 0.6 0.4
+sound5 26 0.6 0.4
+sound5 14 0.6 0.4
+sound5 61 1.05 0.45
+sound5 57 1.05 0.45
+sound5 54 1.05 0.45
+sound5 26 1.05 0.45
+sound5 14 1.05 0.45
+sound5 59 1.5 0.9
+sound5 57 1.5 0.9
+sound5 52 1.5 0.9
+sound5 16 1.5 0.9
+sound5 28 1.5 0.9
+
+sound1 52 2.4 0.15
+sound1 54 2.55 0.15
+sound1 57 2.7 0.15
+sound1 54 2.85 0.15
+
+sound5 59 3 0.4
+sound5 56 3 0.4
+sound5 52 3 0.4
+sound5 25 3 0.4
+sound5 13 3 0.4
+sound5 59 3.45 0.45
+sound5 56 3.45 0.45
+sound5 52 3.45 0.45
+sound5 25 3.45 0.45
+sound5 13 3.45 0.45
+sound5 57 3.9 0.9
+sound5 54 3.9 0.9
+sound5 37 3.9 0.9
+sound5 30 3.9 0.9
+sound5 18 3.9 0.9
+
+sound1 52 4.8 0.15
+sound1 54 4.95 0.15
+sound1 57 5.1 0.15
+sound1 54 5.25 0.15
+
+sound5 57 5.4 0.6
+sound5 54 5.4 0.6
+sound5 50 5.4 0.6
+sound5 59 6 0.3
+sound5 23 5.4 0.9
+sound5 11 5.4 0.9
+
+sound5 56 6.3 0.45
+sound5 52 6.3 0.45
+sound5 54 6.75 0.15
+sound5 28 6.3 0.9
+sound5 16 6.3 0.9
+sound5 52 6.9 0.55
+sound5 28 7.2 0.6
+sound5 52 7.5 0.3
+sound5 59 7.8 0.6
+sound5 52 7.8 0.6
+sound5 49 7.8 0.6
+sound5 32 7.8 0.6
+sound5 25 7.8 0.6
+sound5 57 8.4 1.2 
+sound5 54 8.4 1.2
+sound5 49 8.4 1.2
+sound5 30 8.4 1.2
+sound5 18 8.4 1.2
+
+sound1 52 9.6 0.15
+sound1 54 9.75 0.15
+sound1 57 9.9 0.15
+sound1 54 10.05 0.15
+
+sound5 61 10.2 0.4
+sound5 56 10.2 0.4
+sound5 52 10.2 0.4
+sound5 25 10.2 0.4
+sound5 13 10.2 0.4
+sound5 61 10.65 0.45
+sound5 56 10.65 0.45
+sound5 52 10.65 0.45
+sound5 25 10.65 0.45
+sound5 13 10.65 0.45
+sound5 59 11.1 0.9
+sound5 57 11.1 0.9
+sound5 52 11.1 0.9
+sound5 16 11.1 0.9
+sound5 28 11.1 0.9
+
+sound1 52 12 0.15
+sound1 54 12.15 0.15
+sound1 57 12.3 0.15
+sound1 54 12.45 0.15
+
+sound4 64 12.6 0.6
+sound4 52 12.6 0.6
+sound4 25 12.6 0.6
+sound4 13 12.6 0.6
+sound3 56 13.2 0.3
+sound3 25 13.2 0.3
+sound3 13 13.2 0.3
+sound3 57 13.5 0.45
+sound3 56 13.95 0.15
+sound3 54 14.1 0.3
+sound3 30 13.5 0.9
+sound3 18 13.5 0.9
+
+sound1 52 14.4 0.15
+sound1 54 14.55 0.15
+sound1 57 14.7 0.15
+sound1 54 14.85 0.15
+
+sound5 57 15 0.6
+sound5 54 15 0.6
+sound5 50 15 0.6
+sound5 59 15.6 0.3
+sound5 23 15 0.9
+sound5 11 15 0.9
+
+sound5 56 15.9 0.45
+sound5 52 15.9 0.45
+sound5 54 16.35 0.15
+sound5 28 15.9 0.9
+sound5 16 15.9 0.9
+sound5 52 16.5 0.55
+sound5 28 16.8 0.6
+sound5 52 17.1 0.3
+sound5 59 17.4 0.6
+sound5 52 17.4 0.6
+sound5 49 17.4 0.6
+sound5 32 17.4 0.6
+sound5 25 17.4 0.6
+sound5 57 18 1.2
+sound5 54 18 1.2
+sound5 49 18 1.2
+sound5 30 18 1.2
+sound5 18 18 1.2

@@ -4,6 +4,7 @@
     "type": "split",
     "children": [
       {
+<<<<<<< HEAD
         "id": "1ae21e8bac2bfde3",
         "type": "split",
         "children": [
@@ -31,9 +32,18 @@
                 "mode": "preview"
               }
             }
+=======
+        "id": "3bbad2e0fbc05811",
+        "type": "leaf",
+        "active": true,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "C++ Objects.md",
+            "mode": "preview"
+>>>>>>> 0c3d1f69b5361d53047bb7e4ee7568829fafb496
           }
-        ],
-        "direction": "horizontal"
+        }
       }
     ],
     "direction": "vertical"
@@ -60,7 +70,16 @@
             "state": {
               "type": "search",
               "state": {
+<<<<<<< HEAD
                 "query": ""
+=======
+                "query": "operator",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+>>>>>>> 0c3d1f69b5361d53047bb7e4ee7568829fafb496
               }
             }
           }
@@ -84,7 +103,16 @@
             "state": {
               "type": "backlink",
               "state": {
+<<<<<<< HEAD
                 "file": "Doubly Linked List in C.md"
+=======
+                "file": "C++ Objects.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+>>>>>>> 0c3d1f69b5361d53047bb7e4ee7568829fafb496
               }
             }
           }
@@ -96,11 +124,20 @@
     "collapsed": true
   },
   "lastOpenFiles": [
+<<<<<<< HEAD
     "Doubly Linked List in C.md",
     "References.md",
+=======
+>>>>>>> 0c3d1f69b5361d53047bb7e4ee7568829fafb496
     "C++ Objects.md",
+    "Overloading operators.md",
     "C++.md",
-    "Example C++.md",
-    "Objects.md"
+    "References.md",
+    "other examples.md",
+    "Memory managment in C++.md",
+    "exam.md",
+    "Pasted image 20201112131004.png",
+    "Templates.md",
+    "odds and ends in C.md"
   ]
 }
